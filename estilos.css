@@ -1,0 +1,97 @@
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+}
+
+button {
+    width: 80%;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 80px;
+    margin-top: 5px;
+}
+
+img {
+    width: 45%;
+    height: 45%;
+}
+
+.botonesIndex {
+    height: 100px;
+}
+
+.otro {
+    width: 100px; 
+    height: 50px;
+    font-size: 35px;
+    align-self: center;
+}
+
+.atras {
+    font-size: 30px;
+
+}
+
+/*MOVIL VERTICAL revisamos en 320px*/
+@media (max-width:575px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+        img {
+            width: 30%;
+            height: 30%;
+        }
+
+        h1 {
+            font-size: 35px;
+        }
+
+        h2 {
+            font-size: 23px;
+        }
+
+        button {
+            font-size: 23px;
+            margin-top: 5px;
+        }
+
+        .botonesIndex{
+            height: 100px;
+        }
+
+        #regresar {
+            font-size: 20px;
+        }
+     }
+
+
+    @media (min-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */
+
+
+    }
+
+    @media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    }
+    @media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    }
+    @media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+    }
+    @media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    }
